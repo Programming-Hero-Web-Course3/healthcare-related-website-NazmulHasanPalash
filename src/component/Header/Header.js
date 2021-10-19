@@ -30,9 +30,12 @@ const Header = () => {
                                         <HashLink className="nav-link active" to="/home#serviceId">Service</HashLink>
                                     </li>
                                     <li className="nav-item">
-                                        <HashLink className="nav-link active" to="/register">Register</HashLink>
-
+                                        <HashLink className="nav-link active" to="/home#expertId">Doctors</HashLink>
                                     </li>
+                                    <li className="nav-item">
+                                        <HashLink className="nav-link active" to="/about">About</HashLink>
+                                    </li>
+
                                     {user?.email ? <li className="nav-item ">
                                         <button onClick={logOut} type="button" className="btn btn-light mx-5">Log out</button>
 

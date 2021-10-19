@@ -1,0 +1,16 @@
+.appointment-style{
+    border:5px solid salmon;
+    color: white;
+    
+    border-radius: 10px;
+
+}
+.name-style{
+    background-color: salmon;
+}
+.title-style{
+    border-bottom: salmon ;
+}
+.body-style{
+    background-color: gray !important;
+}

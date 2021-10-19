@@ -7,7 +7,9 @@ import NotFound from './component/NotFound/NotFound';
 import Booking from './component/Booking/Booking';
 import PrivateRoute from './component/PrivateRouter/PrivateRouter';
 import AuthProvider from './component/context/AuthProvider';
-import Register from './component/Register/Register';
+import GetAppointment from './component/GetAppointment/GetAppointment';
+import Footer from './component/Footer/Footer';
+import About from './component/About/About';
 
 function App() {
   return (
@@ -27,14 +29,18 @@ function App() {
               <Home></Home>
 
             </Route>
-
-            <PrivateRoute path="/booking/:serviceId">
-              <Booking></Booking>
-            </PrivateRoute>
-            <Route exact path="/register">
-              <Register></Register>
+            <Route exact path="/about">
+              <About></About>
 
             </Route>
+
+            <PrivateRoute path="/booking/:serviceId/:name/:description">
+              <Booking></Booking>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
+              <GetAppointment></GetAppointment>
+            </PrivateRoute>
+
             <Route exact path="/login">
               <Login></Login>
 
@@ -42,7 +48,9 @@ function App() {
             <Route exact path="*">
               <NotFound></NotFound>
             </Route>
+
           </Switch>
+          <Footer></Footer>
         </Router></AuthProvider>
     </div>
   )

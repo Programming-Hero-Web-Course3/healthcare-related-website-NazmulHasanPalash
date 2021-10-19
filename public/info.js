@@ -28,7 +28,7 @@ const information = [
     },
     {
         name: 'Root Canals	',
-        img: 'https://image.freepik.com/free-photo/dentist-checking-teeth-woman-lying-dental-chair_23-2147862045.jpg',
+        img: '.././src/image/New Project.jpg',
 
         description: 'There are no gross teeth molds here. A trained orthodontic medical technician quickly captures an accurate 3D image of your teeth using our iTero Optical Scanner.'
     },

@@ -1,0 +1,9 @@
+.footer-style{
+    border:5px solid tomato;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 5px;
+}
+.span-style{
+    color: #50c878;
+}

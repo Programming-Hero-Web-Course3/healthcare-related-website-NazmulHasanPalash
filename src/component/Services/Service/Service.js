@@ -4,7 +4,7 @@ import './Service.css'
 
 const Service = ({ service }) => {
     const { name, id, img, description } = service;
-    console.log(service);
+    // console.log(service);
 
     return (
         <div className="service">
@@ -19,7 +19,7 @@ const Service = ({ service }) => {
                             <p className="card-text">{description}</p>
 
                         </div>
-                        <Link to={`/booking/${id}`} >
+                        <Link to={`/booking/${id}/${name}/${description}`}>
                             <button className="btn btn-style m-5 p-2">Appointment: {name.toLowerCase()}</button>
 
 

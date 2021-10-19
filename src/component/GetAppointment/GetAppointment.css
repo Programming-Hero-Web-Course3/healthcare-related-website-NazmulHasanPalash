@@ -1,0 +1,21 @@
+.appointment-form{
+    margin:30px 150px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(https://image.freepik.com/free-vector/green-fluid-background-frame_53876-114482.jpg);
+    background-size: 100%;
+}
+.appointment-form input {
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 50%;
+}
+.form-style{
+    background-color: rgb(131, 13, 216);
+}
+.error{
+    color: red;
+}
