@@ -1,0 +1,11 @@
+.registration-style{
+    width: 75%;
+    border: 10px solid;
+    border-image: linear-gradient(blue,cyan)!important;
+    border-image-slice:30 !important;
+    background-image: linear-gradient(to right,blue,cyan)!important;
+    color:white
+}
+.btn-style{
+    background-image: linear-gradient(to right,tomato, salmon)!important;
+}

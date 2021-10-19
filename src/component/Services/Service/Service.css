@@ -1,0 +1,20 @@
+.card-style{
+    border: 10px solid;
+    
+
+    border-image:linear-gradient(blue,cyan)!important ;
+    border-image-slice: 1  !important;
+    
+}
+
+.card-body-style{
+    background-color: gray;
+    color: white;
+}
+.btn-style{
+    color: white;
+    background-color: tomato;
+}
+.card-title{
+    background-color: salmon;
+}
