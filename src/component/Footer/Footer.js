@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <div className="footer-style m-5">
+            <div className="footer-style mx-auto ">
                 <h3 >Health <span className="heading-style">Care</span></h3>
                 <div className="container">
 

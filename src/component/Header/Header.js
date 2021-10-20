@@ -9,9 +9,9 @@ const Header = () => {
     console.log(user);
 
     return (
-        <div className="header ">
-            <div container-fluid>
-                <div className="img-style ">
+        <div>
+            <div className="w-100 mx-auto">
+                <div className="img-style">
                     <img src={Heading} alt="" />
                 </div>
                 <div>
