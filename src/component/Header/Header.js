@@ -12,7 +12,7 @@ const Header = () => {
         <div>
             <div className="w-100 mx-auto">
                 <div className="img-style">
-                    <img src={Heading} alt="" />
+                    <img src="https://wp.xpeedstudio.com/medizco/wp-content/themes/medizco-development/assets/images/banner/page-banner-img.jpg" alt="" />
                 </div>
                 <div>
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -21,7 +21,7 @@ const Header = () => {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse " id="navbarTogglerDemo01">
-                                <a className="navbar-brand" href="/home">Medical Care</a>
+                                <a className="navbar-brand" href="/home"><h1>Medical <span className="span-style">Center<i className="fas fa-plus"></i></span></h1></a>
                                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0 link-style">
                                     <li className="nav-item">
                                         <HashLink className="nav-link active" aria-current="page" to="/home#home">Home</HashLink>

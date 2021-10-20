@@ -11,9 +11,9 @@ const GetAppointment = () => {
     };
     return (
         <div>
-            <div class="card bg-dark text-white  mx-auto">
-                <img src="https://image.freepik.com/free-photo/race-women-looking-young-horizontal-standing_1291-32.jpg" class="card-img" alt="..." />
-                <div class="card-img-overlay">
+            <div className="card bg-dark text-white  mx-auto">
+                <img src="https://image.freepik.com/free-photo/race-women-looking-young-horizontal-standing_1291-32.jpg" className="card-img" alt="..." />
+                <div className="card-img-overlay">
                     <h1>Medical <span className="span-style">Center<i className="fas fa-plus"></i></span></h1>
 
 

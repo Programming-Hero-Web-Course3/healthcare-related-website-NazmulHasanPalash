@@ -14,18 +14,12 @@ const About = () => {
                         <div className="card-body">
                             <h5 className="span-style">We Provide Essential Services For Your Health Care</h5>
                             <p className="card-text">Basic health services means those health services, including as a minimum, but not limited to, emergency care, inpatient hospital and physician care, ambulatory physician care, and outpatient and preventive medical services.</p>
-                            <ul>
-                                <li>
-                                    24 Hours Emergency Assistance Call Us
-                                </li>
-                                <li>
-                                    We are committed to providing healthcare service
-                                </li>
-                                <li>
-                                    Really know the true needs and expectations of patients
 
-                                </li>
-                            </ul>
+                            <p><i className="fas fa-phone-square-alt"></i>  24 Hours Emergency Assistance Call Us</p>
+                            <p><i className="fas fa-heartbeat"></i>       We are committed to providing healthcare service</p>
+                            <p><i className="fas fa-hospital-user"></i> Really know the true needs and expectations of patients</p>
+
+
                         </div>
                     </div>
                 </div>
