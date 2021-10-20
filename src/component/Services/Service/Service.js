@@ -19,7 +19,7 @@ const Service = ({ service }) => {
                             <p className="card-text">{description}</p>
 
                         </div>
-                        <Link to={`/booking/${id}/${name}/${description}`}>
+                        <Link to={`/booking/${id}`}>
                             <button className="btn btn-style m-5 p-2">Appointment: {name.toLowerCase()}</button>
 
 

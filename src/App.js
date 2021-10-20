@@ -34,7 +34,7 @@ function App() {
 
             </Route>
 
-            <PrivateRoute path="/booking/:serviceId/:name/:description">
+            <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
             <PrivateRoute path="/appointment">

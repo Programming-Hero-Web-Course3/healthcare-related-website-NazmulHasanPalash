@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './Booking.css'
 
 const Booking = () => {
-    const { serviceId, name, description } = useParams();
+    const { serviceId } = useParams();
     console.log(serviceId);
-
+    const [serviceList, setServiceList] = useState([]);
+    const [selectService, setSelectService] = useState({});
+    useEffect(() => {
+        fetch("/serviceDetails.json")
+            .then(res => res.json())
+            .then(data => setServiceList(data.service))
+    }, [])
+    useEffect(() => {
+        const getService = serviceList.find
+            (service => service.id == serviceId)
+        setSelectService(getService)
+    }, [serviceList])
 
 
 
@@ -45,15 +56,15 @@ const Booking = () => {
             <h1>Get<span className="text-primary mt-5 "> Appointment</span></h1>
             <div className="card mb-3 appointment-style w-75 mx-auto my-3">
                 <div className="row g-0">
-                    <div className="col-md-4">
-                        <img src="https://image.freepik.com/free-vector/flat-hand-drawn-patient-taking-medical-examination_52683-57829.jpg" className="img-fluid rounded-start" alt="..." />
+                    <div className="col-md-6">
+                        <img src={selectService?.img} className="img-fluid rounded-start" alt="..." />
                     </div>
-                    <div className="col-md-8 body-style">
-                        <div className="card-body my-5 ">
+                    <div className="col-md-6 body-style">
+                        <div className="card-body my-5  ">
 
-                            <h5 className="card-title name-style">Appointment: {name}</h5>
+                            <h5 className="card-title name-style">Appointment: {selectService?.name}</h5>
                             <h5 className="card-title">Service number: {serviceId}</h5>
-                            <p className="card-text title-style">Description:{description}</p>
+                            <p className="card-text title-style">Description:{selectService?.description}</p>
                             <Link to="/appointment">
                                 <button className="btn btn-primary"> Get Appointment</button>
 
