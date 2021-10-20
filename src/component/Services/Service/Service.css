@@ -4,7 +4,12 @@
 
     border-image:linear-gradient(blue,cyan)!important ;
     border-image-slice: 1  !important;
-    
+    transition: transform 250ms;
+
+}
+.card-style:hover{
+    transform: translateY(-10px) !important;
+
 }
 
 .card-body-style{

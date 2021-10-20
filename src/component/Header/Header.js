@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import Heading from '../../image/New Project.jpg'
 import useAuth from '../Hooks/useAuth';
 import './Header.css';
 

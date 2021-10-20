@@ -28,7 +28,7 @@ const About = () => {
                 <h1>Meet With Our<span className="span-style"> Doctors</span></h1>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 ">
                     <div className="col shadow-lg  p-3 rounded-3 ">
-                        <div className="card">
+                        <div className="card doctor-style">
                             <img src="https://image.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Dr Riny</h5>
@@ -37,7 +37,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col shadow-lg  p-3 rounded-3">
-                        <div className="card">
+                        <div className="card doctor-style">
                             <img src="https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Dr Alex</h5>
@@ -46,7 +46,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col shadow-lg  p-3 rounded-3">
-                        <div className="card">
+                        <div className="card doctor-style">
                             <img src="https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Dr Roy</h5>
@@ -77,7 +77,7 @@ const About = () => {
 
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                    <div className="card">
+                    <div className="card doctor-style">
                         <img src="https://kit.baliniz.com/medicalife/wp-content/uploads/sites/10/2021/05/medical-council.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="span-style">Best Medical Network Directory For Physicians and Clients</h5>
@@ -85,7 +85,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card doctor-style">
                         <img src="https://kit.baliniz.com/medicalife/wp-content/uploads/sites/10/2021/05/disability-and-healthcare.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="span-style">Primary health care is very important in our life</h5>
@@ -93,7 +93,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card">
+                    <div className="card doctor-style">
                         <img src="https://kit.baliniz.com/medicalife/wp-content/uploads/sites/10/2021/05/psychologist-and-patient-talking-in-clinic-mental-health-concept.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="span-style">6 types of treatment Your Mental Health when you are sick</h5>

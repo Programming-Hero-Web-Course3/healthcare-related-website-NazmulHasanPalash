@@ -1,4 +1,5 @@
 import React from 'react';
+import './Experts.css'
 
 const Experts = () => {
     return (
@@ -6,7 +7,7 @@ const Experts = () => {
             <div className="m-5 w-75 mx-auto">
                 <h1>Expert<span className="text-primary"> Doctors</span></h1>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 ">
-                    <div className="col shadow-lg  p-1 rounded-3 ">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://image.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -15,7 +16,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col shadow-lg  p-1 rounded-3">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -24,7 +25,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col shadow-lg  p-1 rounded-3">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -33,7 +34,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col shadow-lg  p-1 rounded-3">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://as2.ftcdn.net/v2/jpg/02/60/04/09/1000_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -42,7 +43,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col shadow-lg  p-1 rounded-3">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://as1.ftcdn.net/v2/jpg/03/08/95/96/1000_F_308959677_9dsUpeKnj2wWy42Vr8ofYNeKoazLXgSX.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -51,7 +52,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col shadow-lg  p-1 rounded-3 ">
+                    <div className="col shadow-lg  p-1 rounded-3 doctor-style">
                         <div className="card">
                             <img src="https://as2.ftcdn.net/v2/jpg/03/05/41/27/1000_F_305412791_XRNiWaFCREjLLpSQfj0e736foBoYXXYv.jpg" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -60,7 +61,7 @@ const Experts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card mb-3 w-75 about-style mx-auto">
+                    <div className="card mb-3 w-75 about-style mx-auto doctor-style">
                         <h1>Our<span className="span-style">Promise</span></h1>
 
                         <div className="row g-0">

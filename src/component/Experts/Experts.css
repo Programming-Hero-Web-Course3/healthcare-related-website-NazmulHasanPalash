@@ -1,0 +1,8 @@
+.doctor-style{
+    transition: transform 250ms;
+
+}
+.doctor-style:hover{
+    transform: translateY(-10px);
+
+}
