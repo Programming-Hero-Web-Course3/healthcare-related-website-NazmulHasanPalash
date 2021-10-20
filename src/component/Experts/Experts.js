@@ -64,13 +64,13 @@ const Experts = () => {
                         <h1>Our<span className="span-style">Promise</span></h1>
 
                         <div className="row g-0">
-                            <div className="col-md-8 text-style">
+                            <div className="col-md-6 text-style">
                                 <div className="card-body ">
                                     <h5 className="span-style">Trust Us To Be There To Help All & Make Things Well Again</h5>
                                     <p className="card-text">The fundamental purpose of health care is to enhance quality of life by enhancing health. Commercial businesses focus on creating financial profit to support their valuation and remain viable. Health care must focus on creating social profit to fulfill its promise to society.</p>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-6">
                                 <img src="https://image.freepik.com/free-photo/doctor-with-co-workers-analyzing-x-ray_1098-581.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                         </div>
