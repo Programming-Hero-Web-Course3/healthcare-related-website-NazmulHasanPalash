@@ -2,8 +2,9 @@ import React from 'react';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
 import { useState } from "react";
 import './Login.css';
+import useAuth from '../Hooks/useAuth'
 import initializeAuthentication from '../Firebase/firebase.init'
-import useAuth from '../Hooks/useAuth';
+import { useHistory, useLocation } from 'react-router-dom';
 
 
 initializeAuthentication();
@@ -19,7 +20,17 @@ const Login = () => {
 
     const auth = getAuth();
     const { signInUsingGoogle } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+    console.log(redirect_uri);
 
+
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+        history.push(redirect_uri);
+
+    }
 
 
 
@@ -146,7 +157,7 @@ const Login = () => {
             </div>
             <div>
                 <h3 className="mt-5">Google Account <span className="text-primary">Sign In</span> </h3>
-                <button onClick={signInUsingGoogle} className="btn btn-warning my-5"> Google Sign In</button>
+                <button onClick={handleGoogleLogin} className="btn btn-warning my-5"> Google Sign In</button>
 
             </div>
 
